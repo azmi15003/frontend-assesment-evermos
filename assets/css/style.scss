@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Futura, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+input {
+  padding: 8px 12px;
+}
+
+.margin-0 {
+  margin: 0;
+}
+.padding-0 {
+  padding: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-direction-responsive {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.image-red {
+  filter: invert(25%) sepia(80%) saturate(7203%) hue-rotate(355deg) brightness(96%) contrast(122%);
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .flex-direction-responsive {
+    flex-direction: row;
+  }
+}
