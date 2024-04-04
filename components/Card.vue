@@ -9,7 +9,6 @@
         <img @click="updateWishlists" :class="{ 'image-red': product.isWishList }" src="~assets/icon/love.svg" height="24" width="24" />
       </div>
       <div>
-        <span>{{ product.isWishList }}</span>
         <span style="color: #d43232;">Rp.{{ product.price }}</span>
       </div>
       <div class="flex">

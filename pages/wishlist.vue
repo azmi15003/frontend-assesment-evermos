@@ -5,7 +5,7 @@
       <div class="flex flex-direction-responsive">
         <div class="float-left product-grid">
           <br>
-          <span class="float-right">{{ wishList.length }} Items</span>
+          <span class="float-right">{{ wishList.filter(e => e.isWishList).length }} Items</span>
           <div>
             <br>
             <div class="product-grid__container">
